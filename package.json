@@ -1,0 +1,31 @@
+{
+  "name": "partygam.es-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/terrabythia/partygam.es-examples.git",
+  "author": "Sander <sander.bruggeman@linkit.nl>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html --port 4322",
+    "build": "parcel build src/index.html"
+  },
+  "dependencies": {
+    "@types/fabric": "^3.6.2",
+    "@types/react": "^16.9.32",
+    "abs-svg-path": "^0.1.1",
+    "bootstrap": "^4.4.1",
+    "bulma": "^0.8.1",
+    "fabric": "^3.6.3",
+    "immutable": "^4.0.0-rc.12",
+    "normalize-svg-path": "^1.0.1",
+    "parse-svg-path": "^0.1.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.1",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
